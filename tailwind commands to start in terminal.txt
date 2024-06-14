@@ -1,0 +1,19 @@
+.............................Tailwind setup.........................................
+
+1. npm install -o tailwindcss postcss autoprefixer vite
+2. npx tailwindcss init -p
+3. check for tailwind extension .. it installed skip this step 
+4. In tailwindconfig.js file add "*" in content section ... 
+5. Add script in package.json file ---> 
+   "scripts": {
+       "start": "vite"
+    },
+6. Create main.css file and add these three lines ... 
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+7. link main.css file  to index.html file .. 
+
+
+                                  
+
